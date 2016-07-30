@@ -12,7 +12,7 @@ describe('Wortschatz demo test project', function() {
 
   it('should have a Start Lesson button', function() {
     wortschatzHomepage.get();
-    expect(wortschatzHomepage.startLessonButtonExists());
+    expect(wortschatzHomepage.startLessonButtonExists()).toBe(true);
   });
 
   it('should have 10 lesson items', function() {

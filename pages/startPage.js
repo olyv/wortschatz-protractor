@@ -11,7 +11,7 @@ var WortschatzHomepage = function() {
   };
 
   this.startLessonButtonExists = function() {
-    this.startLessonButton.isPresent();
+    return this.startLessonButton.isPresent();
   };
 };
 
