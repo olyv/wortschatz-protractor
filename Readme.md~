@@ -1,0 +1,24 @@
+1) install jdk and  nodejs (http://www.hostingadvice.com/how-to/install-nodejs-ubuntu-14-04/#standard-binary-packages)
+2) install rotractor via npm https://github.com/angular/protractor/blob/master/docs/tutorial.md
+3)
+
+
+
+// find an element using a css selector
+by.css('.myclass')
+
+// find an element with the given id
+by.id('myid')
+
+// find an element with a certain ng-model
+by.model('name')
+
+// find an element bound to the given variable
+by.binding('bindingname')
+
+
+
+
+webdriver-manager start
+
+protractor conf.js
